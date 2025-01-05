@@ -1,0 +1,4 @@
+#ifndef ARCHIVEQUEUE_HPP
+#define ARCHIVEQUEUE_HPP
+
+#endif // ARCHIVEQUEUE_HPP
