@@ -4,7 +4,7 @@ include(${CMAKE_CURRENT_SOURCE_DIR}/libarchive_flags.cmake)
 add_subdirectory(third_party/libarchive)
 
 # Define the archiveQueue library
-add_library(archiveQueue STATIC archiveQueue.cpp)
+add_library(archiveQueue STATIC archiveQueue.cpp zipArchiver.cpp)
 
 # Include directories for archiveQueue and libarchive
 target_include_directories(archiveQueue
